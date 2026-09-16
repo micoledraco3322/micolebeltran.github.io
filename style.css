@@ -189,7 +189,7 @@ h1 {
 
 .q1 p {
   font-family: "Jersey 25", sans-serif;
-  font-size: clamp(22px, 2vw, 10px);
+  font-size: clamp(25px, 2vw, 30px);
   margin-left: 20px;
   color:#F5BD02;
 }
@@ -216,8 +216,9 @@ h1 {
 }
 
 .cnx, .acn {
-  width: 30%;
-  height: 30%;
+  width: 80%;
+  height: 40%;
+  padding-bottom: 10px;
 }
 
 .smnhs, .sti, .slsu {
@@ -234,6 +235,10 @@ h1 {
   padding-bottom: 5%;
 }
 
+.div-educ p {
+  font-size: 22px;
+}
+
 .b {
   background-color: rgba(0,0,0,0.5);
   width: auto;
@@ -245,6 +250,10 @@ h1 {
   gap: 20px;
   padding-bottom: 5%;
   margin-bottom: 200px;
+}
+
+.div-backg p {
+  font-size: 22px;
 }
 
 .div-backg-cnx, .div-backg-acn {
@@ -332,7 +341,7 @@ i {
   .q1 p {
     float: none;
     margin: 0 auto;
-    font-size: 50px;
+    font-size: 28px;
   }
   .div-educ{
     justify-content: center;
