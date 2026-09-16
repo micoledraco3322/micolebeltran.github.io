@@ -6,7 +6,7 @@ navbarToggle.addEventListener('click',() => {
     navbarMenu.classList.toggle('active');
 })
 
-const roles = ["PROGRAMMER", "NETWORKING ENTHUSIAST", "CYBERSECURITY ENTHUSIAST", "CUSTOMER SERVICE REPRESENTATIVE", "TRUST AND SAFETY ASSOCIATE"];
+const roles = ["PROGRAMMER", "NETWORKING ENTHUSIAST", "CYBERSECURITY ENTHUSIAST", "CUSTOMER SERVICE REP", "TRUST AND SAFETY ASSOCIATE"];
 const roleElem = document.getElementById("role");
 
 let roleInd = 0;
