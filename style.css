@@ -189,7 +189,7 @@ h1 {
 
 .q1 p {
   font-family: "Jersey 25", sans-serif;
-  font-size: clamp(32px, 2vw, 35px);
+  font-size: clamp(22px, 2vw, 10px);
   margin-left: 20px;
   color:#F5BD02;
 }
@@ -282,6 +282,8 @@ h1 {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .e {
