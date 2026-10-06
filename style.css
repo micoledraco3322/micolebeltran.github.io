@@ -355,6 +355,8 @@ i {
   .div-backg-acn, .div-backg-cnx {
     justify-content: center;
     width: auto;
+    margin-left: 23px;
+    margin-right: 23px;
   }
   footer {
     display: flex;
